@@ -1,0 +1,5 @@
+<p>Tasks list:</p>
+
+<mat-list>
+  <mat-list-item *ngFor="let task of task$ | async"> <b>{{task.id}}</b>/ {{task.title}}</mat-list-item>
+</mat-list>
