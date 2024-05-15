@@ -6,8 +6,7 @@ export const environment = {
   production: false,
 
   // Complete this CSP
-  contentSecurityPolicy: ""
-
+  contentSecurityPolicy: '',
 };
 
 /*
